@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(90, 158, 135);
+}
+
+h1{
+    color: aquamarine;
+    text-align: justify;
+}
+
+h2{
+color: rgb(169, 202, 202);
+text-align: justify;
+
+}
+
+.feature-image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 24px auto;
+}
+
+#contact{
+    box-sizing: border-box;
+    max-width: 560px;
+    margin: 0 auto 32px;
+    padding: 24px;
+    background-color: rgb(240, 248, 245);
+    border-radius: 8px;
+}
+
+#contact h2{
+    margin-top: 0;
+    color: rgb(38, 79, 65);
+    text-align: left;
+}
+
+#contact form > div{
+    margin-bottom: 16px;
+}
+
+#contact label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+#contact input,
+#contact textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(120, 150, 138);
+    border-radius: 4px;
+    font: inherit;
+}
+
+#contact textarea{
+    resize: vertical;
+}
+
+#contact button{
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(38, 79, 65);
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
