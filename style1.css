@@ -1,0 +1,24 @@
+h1{
+background-color: lightgray;
+padding: 20px;
+margin: 30px;
+border: 2px solid;
+}
+
+
+
+
+
+#box1{
+    width: 200px;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 30px;
+    border: 2px solid;
+}
+#box2{
+    width: 200px;
+    padding: 20px;
+    background-color: yellow;
+    margin: 30px;
+    border: 2px dashed;
